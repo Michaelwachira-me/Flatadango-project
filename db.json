@@ -1,45 +1,45 @@
 {
-    "films": [
-      {
-        "id": 1,
-        "title": "The Giant Gila Monster",
-        "runtime": 108,
-        "capacity": 30,
-        "showtime": "04:00PM",
-        "tickets_sold": 27,
-        "description": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
-        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
-      },
-      {
-        "id": 2,
-        "title": "Manos: The Hands Of Fate",
-        "runtime": 118,
-        "capacity": 50,
-        "showtime": "06:45PM",
-        "tickets_sold": 44,
-        "description": "A family gets lost on the road and stumbles upon a hidden, underground, devil-worshiping cult led by the fearsome Master and his servant Torgo.",
-        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/47781/p47781_v_v8_ac.jpg"
-      },
-      {
-        "id": 3,
+  "films": [
+    {
+      "id": "1",
+      "title": "The Giant Gila Monster",
+      "runtime": "108",
+      "capacity": 30,
+      "showtime": "04:00PM",
+      "tickets_sold": 27,
+      "description": "A giant lizard terrorizes a rural Texas community and a heroic teenager attempts to destroy the creature.",
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/2157/p2157_v_v8_ab.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Manos: The Hands Of Fate",
+      "runtime": "118",
+      "capacity": 50,
+      "showtime": "06:45PM",
+      "tickets_sold": 44,
+      "description": "A family gets lost on the road and stumbles upon a hidden, underground, devil-worshiping cult led by the fearsome Master and his servant Torgo.",
+      "poster": "https://www.gstatic.com/tv/thumb/v22vodart/47781/p47781_v_v8_ac.jpg"
+    },
+    {
+        "id": "3",
         "title": "Plan 9 from Outer Space",
-        "runtime": 79,
-        "capacity": 25,
+        "runtime": "79",
+        "capacity": 60,
         "showtime": "09:00PM",
-        "tickets_sold": 25,
-        "description": "Aliens resurrect dead humans as zombies and vampires to stop humanity from creating the Solaranite, a bomb that would destroy the universe.",
-        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/10002/p10002_v_v8_aa.jpg"
-      },
-      {
-        "id": 4,
-        "title": "Troll 2",
-        "runtime": 95,
-        "capacity": 40,
-        "showtime": "02:00PM",
         "tickets_sold": 15,
-        "description": "A young boy discovers that an Italian family on vacation are actually goblins in disguise.",
-        "poster": "https://www.gstatic.com/tv/thumb/v22vodart/11756/p11756_v_v8_aa.jpg"
-      }
-    ],
-    "tickets": []
-  }
+        "description": "Aliens resurrect dead humans as zombies and vampires to stop humanity from creating the Solaranite, a bomb that would destroy the universe.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDkwM2YwNDgtYjAxMS00YjI3LWI4NzItZTk4YjVmNzMzM2QxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+    },
+    {
+        "id": "4",
+        "title": "Troll 2",
+        "runtime": "95",
+        "capacity": 40,
+        "showtime": "11:30PM",
+        "tickets_sold": 39,
+        "description": "A young boy discovers that he and his family are the targets of vegetarian goblins who are trying to transform them into plants.",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjE1ODQ5NjkxNV5BMl5BanBnXkFtZTcwNjE4NDM2NA@@._V1_.jpg"
+    }
+  ],
+  "tickets": []
+}

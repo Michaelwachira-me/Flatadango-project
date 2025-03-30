@@ -10,7 +10,7 @@ const buyTicketButton = document.getElementById("buy-ticket");
 const filmsList = document.getElementById("films");
 
 const fetchFirstMovie = () => {
-    fetch("http://localhost:3000/films/1") // Corrected URL
+    fetch("http://localhost:3002/films/1") // Corrected URL
         .then((response) => response.json())
         .then((data) => {
             currentMovies = data;
@@ -41,7 +41,7 @@ const displayMovieDetails = (movie) => {
 buyTicketButton.addEventListener("click", () => {
     if (currentMovies.tickets_sold < currentMovies.capacity) {
         const updatedTicketsSold = currentMovies.tickets_sold + 1;
-        fetch(`http://localhost:3000/films/${currentMovies.id}`, {
+        fetch(`http://localhost:3002/films/${currentMovies.id}`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json",
@@ -59,7 +59,7 @@ buyTicketButton.addEventListener("click", () => {
                 displayMovieDetails(currentMovies);
                 displayMovieMenu(movieData);
 
-                fetch('http://localhost:3000/tickets', {
+                fetch('http://localhost:3002/tickets', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -83,7 +83,7 @@ buyTicketButton.addEventListener("click", () => {
 });
 
 const fetchAllMovies = () => {
-    fetch("http://localhost:3000/films") // Corrected URL
+    fetch("http://localhost:3002/films") // Corrected URL
         .then((response) => response.json())
         .then((data) => {
             movieData = data;
@@ -121,7 +121,7 @@ const displayMovieMenu = (movies) => {
 };
 
 const deleteMovie = (movieId, listItem) => { // Accept the li element
-    fetch(`http://localhost:3000/films/${movieId}`, {
+    fetch(`http://localhost:3002/films/${movieId}`, {
         method: "DELETE",
     })
         .then(response => {
